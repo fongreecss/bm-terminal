@@ -3,5 +3,5 @@ Adds, removes, goes to bookmark in linux (ubuntu) terminal. Also shows a list of
 
 ####Installation
 ```
-git clone 
+git clone https://github.com/frasaleksander/bm-bookmarks.git ~/.bm-bookmarks
 ```
