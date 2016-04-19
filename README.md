@@ -1,2 +1,7 @@
-# bm-bookmark
-Adds, removes, goes to bookmark in linux (ubuntu) terminal
+## bm-bookmarks (very original I know)
+Adds, removes, goes to bookmark in linux (ubuntu) terminal. Also shows a list of all saved bookmarks.
+
+####Installation
+‘‘
+nekaj
+‘‘
