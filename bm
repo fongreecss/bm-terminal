@@ -5,19 +5,23 @@ BMDIR=${APPDIR}bookmarks/
 ARGC=$#
 CURRDIR=$(pwd)
 RPLSTR=""
+SPACE=" "
+DASH="_"
+
+
 
 if [ ! -d $BMDIR ]; then 
 	mkdir $BMDIR
 fi
 
 if [ "${1}" == "add" ] && [ "${ARGC}" == 2 ]; then
-	echo "${CURRDIR}" > ${BMDIR}${2}
+	echo ${CURRDIR} > ${BMDIR}${2}
 elif [ "${1}" == "remove" ] && [ "${ARGC}" == 2 ]; then 
 	rm -fv ${BMDIR}${2}
 elif [ "${1}" == "goto" ] && [ "${ARGC}" == 2 ]; then
 	#get file contents
 	FILECONTENT=$(cat ${BMDIR}${2})
-	cd $FILECONTENT
+	cd "${FILECONTENT}"
 elif [ "${1}" == "list" ]; then
 	echo "LIST OF BOOKMARKS:"
 	ALLBOOKMARKS=($BMDIR*)
