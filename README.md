@@ -15,7 +15,7 @@ alias bmrm=". ~/.bm-bookmarks/bm remove"
 alias bmto=". ~/.bm-bookmarks/bm goto"
 alias bmls=". ~/.bm-bookmarks/bm list"
 ```
-You should restart your terminal after saving the file!  
+**You should restart your terminal after saving the file!**  
 
 ####Adding bookmark 
 cd to directory you want to bookmark (for example `cd /bin`)
