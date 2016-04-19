@@ -1,4 +1,5 @@
 #!/bin/bash
+#super simple script
 APPDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/
 BMDIR=${APPDIR}bookmarks/
 ARGC=$#
