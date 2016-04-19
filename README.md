@@ -26,15 +26,15 @@ Directory bin is now saved under binbm bookmark name.
 
 ####Navigating to bookmark
 ```bash
-**bmto** binbm
+bmto binbm
 ```
 
 ####Removing bookmark
 ```bash
-**bmrm** binbm
+bmrm binbm
 ```
 
 ####Listing all saved bookmarks
 ```bash
-**bmls**
+bmls
 ```
