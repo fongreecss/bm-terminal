@@ -1,5 +1,5 @@
 # bm-bookmarks
-Adds, removes, navigates to a saved bookmark in linux (ubuntu) terminal. Also shows a list of all saved bookmarks. 
+Adds, removes, navigates to saved bookmarks in linux (ubuntu) terminal.
 *works only on folders
 
 ####Installation
