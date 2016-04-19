@@ -1,13 +1,11 @@
 #!/bin/bash
 #super simple script
+
 APPDIR=$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )/
 BMDIR=${APPDIR}bookmarks/
 ARGC=$#
 CURRDIR=$(pwd)
 RPLSTR=""
-SPACE=" "
-DASH="_"
-
 
 
 if [ ! -d $BMDIR ]; then 
@@ -26,6 +24,7 @@ elif [ "${1}" == "list" ]; then
 	echo "LIST OF BOOKMARKS:"
 	ALLBOOKMARKS=($BMDIR*)
 	for bookmark in ${ALLBOOKMARKS[@]}; do
-        echo "--> ""${bookmark/$BMDIR/$RPLSTR}"
+		#two // for more than one occurrences
+        echo "--> ""${bookmark//$BMDIR/""}"
     done
 fi
