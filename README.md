@@ -3,7 +3,7 @@ Adds, removes, navigates to a saved bookmark in linux (ubuntu) terminal. Also sh
 *works only on folders
 
 ####Installation
-```
+```bash
 git clone https://github.com/frasaleksander/bm-bookmarks.git ~/.bm-bookmarks
 ```
 
@@ -19,22 +19,22 @@ You should restart your terminal after saving the file!
 
 ####Adding bookmark 
 cd to directory you want to bookmark (for example `cd /bin`)
-```
+```bash
 bmadd binbm
 ```
 directory /bin is now saved under binbm
 
 ####Navigating to bookmark
-```
+```bash
 bmto binbm
 ```
 
 ####Removing bookmark
-```
+```bash
 bmrm binbm
 ```
 
 ####Listing all saved bookmarks
-```
+```bash
 bmls
 ```
