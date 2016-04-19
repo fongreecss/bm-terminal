@@ -8,7 +8,7 @@ git clone https://github.com/frasaleksander/bm-bookmarks.git ~/.bm-bookmarks
 ```
 
 ####Making life easier with aliases
-Add following aliases to .bashrc file. .bashrc is located in home directory. Open terminal and write `sudo nano ~/.bashrc` in it. Append these lines to the end of the .bashrc file. CTRL+x to save the file.
+Add following aliases to the **.bashrc** file. .bashrc is located in the home directory. Open terminal and write **`sudo nano ~/.bashrc`** in it. **Append** these lines at the end of the .bashrc file. **CTRL+x** to **save** the file.
 ```bash
 alias bmadd=". ~/.bm-bookmarks/bm add"
 alias bmrm=". ~/.bm-bookmarks/bm remove"
