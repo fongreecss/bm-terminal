@@ -1,5 +1,5 @@
 # bm-bookmarks
-Adds, removes, navigates to saved bookmarks in linux (ubuntu) terminal.
+Adds, removes, navigates to saved bookmarks in linux (ubuntu) terminal.  
 *works only on folders
 
 ####Installation
@@ -8,7 +8,7 @@ git clone https://github.com/frasaleksander/bm-bookmarks.git ~/.bm-bookmarks
 ```
 
 ####Making life easier with aliases
-Add following aliases to .bashrc file. .bashrc is located in home directory. Open terminal write `sudo nano ~/.bashrc` in it. Append these lines to the end of the .bashrc file. ctrl+x to save the file.
+Add following aliases to .bashrc file. .bashrc is located in home directory. Open terminal and write `sudo nano ~/.bashrc` in it. Append these lines to the end of the .bashrc file. CTRL+x to save the file.
 ```bash
 alias bmadd=". ~/.bm-bookmarks/bm add"
 alias bmrm=". ~/.bm-bookmarks/bm remove"
