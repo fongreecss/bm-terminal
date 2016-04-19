@@ -20,21 +20,21 @@ alias bmls=". ~/.bm-bookmarks/bm list"
 ####Adding bookmark 
 cd to directory you want to bookmark (for example `cd /bin`)
 ```bash
-bmadd binbm
+**bmadd** binbm
 ```
 Directory bin is now saved under binbm bookmark name.
 
 ####Navigating to bookmark
 ```bash
-bmto binbm
+**bmto** binbm
 ```
 
 ####Removing bookmark
 ```bash
-bmrm binbm
+**bmrm** binbm
 ```
 
 ####Listing all saved bookmarks
 ```bash
-bmls
+**bmls**
 ```
