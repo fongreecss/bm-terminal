@@ -22,7 +22,7 @@ cd to directory you want to bookmark (for example `cd /bin`)
 ```bash
 bmadd binbm
 ```
-directory /bin is now saved under binbm
+Directory bin is now saved under binbm bookmark name.
 
 ####Navigating to bookmark
 ```bash
