@@ -4,7 +4,7 @@ Adds, removes, navigates to saved bookmarks in linux (ubuntu) terminal.
 
 ####Installation
 ```bash
-git clone https://github.com/frasaleksander/bm-terminal.git ~/.bm-terminal
+git clone https://github.com/fongreecss/bm-terminal.git ~/.bm-terminal
 ```
 
 ####Making life easier with aliases
